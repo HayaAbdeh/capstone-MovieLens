@@ -15,9 +15,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Data science is one of new techniques to describe big data  and extract knowledge by using new machine learning algorithms that analyze and process data into helpful information and naturally intuitive solutions.  and as machine learning improves the modern business making  in recent years, We can see Netflix one of the biggest companies that taken an active role as producer and distributor for both film and television series, worked on improving a recommendation system to attract more subscription users. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+We are going to mimic  a predict movie rating system for users in a large dataset, we train a linear model to generate predicted movie ratings and calculate  (RMSE) the Root Mean Square Error of the predicted ratings versus the actual ratings.
+This is a four parts report that introduce the problem, and  develops the inquires in the summary, moreover  the method section establishes the model and implements in with the accompanying (R) file, and then shares the results in the conclusion section.
 
 ```{r cars}
 summary(cars)
