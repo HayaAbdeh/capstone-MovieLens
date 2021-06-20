@@ -20,9 +20,17 @@ Data science is one of new techniques to describe big data  and extract knowledg
 We are going to mimic  a predict movie rating system for users in a large dataset, we train a linear model to generate predicted movie ratings and calculate  (RMSE) the Root Mean Square Error of the predicted ratings versus the actual ratings.
 This is a four parts report that introduce the problem, and  develops the inquires in the summary, moreover  the method section establishes the model and implements in with the accompanying (R) file, and then shares the results in the conclusion section.
 
+
+## Summary 
+Dataset used is [MovieLens 10M dataset] (https://grouplens.org/datasets/movielens/10m/)
+(http://files.grouplens.org/datasets/movielens/ml-10m.zip)
+consists of 10 million ratings and 100,000 tag applications applied to 10,000 movies by 72,000 users , Varying numbers of ratings for each movie , and over 30,000 ratings and over 100 titles with a single rating.
+
 ```{r cars}
-summary(cars)
+summary(cars) 
 ```
+
+
 
 ## Including Plots
 
